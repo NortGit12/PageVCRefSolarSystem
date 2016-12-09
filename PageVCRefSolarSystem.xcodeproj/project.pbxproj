@@ -13,6 +13,8 @@
 		1F392D1A1DFB45110010F923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F392D181DFB45110010F923 /* LaunchScreen.storyboard */; };
 		1F392D241DFB53490010F923 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F392D231DFB53490010F923 /* PageViewController.swift */; };
 		1F392D271DFB537A0010F923 /* PlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F392D261DFB537A0010F923 /* PlanetViewController.swift */; };
+		1F392D291DFB577F0010F923 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F392D281DFB577F0010F923 /* Planet.swift */; };
+		1F392D2C1DFB57CF0010F923 /* PlanetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F392D2B1DFB57CF0010F923 /* PlanetController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1F392D1B1DFB45110010F923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F392D231DFB53490010F923 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		1F392D261DFB537A0010F923 /* PlanetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetViewController.swift; sourceTree = "<group>"; };
+		1F392D281DFB577F0010F923 /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		1F392D2B1DFB57CF0010F923 /* PlanetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				1F392D0F1DFB45110010F923 /* AppDelegate.swift */,
+				1F392D2A1DFB578A0010F923 /* Models */,
+				1F392D2D1DFB57D30010F923 /* ModelControllers */,
 				1F392D211DFB4FE60010F923 /* Resources */,
 			);
 			path = PageVCRefSolarSystem;
@@ -90,6 +96,22 @@
 			);
 			name = ViewControllers;
 			path = PageVCRefSolarSystem;
+			sourceTree = "<group>";
+		};
+		1F392D2A1DFB578A0010F923 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F392D281DFB577F0010F923 /* Planet.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1F392D2D1DFB57D30010F923 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F392D2B1DFB57CF0010F923 /* PlanetController.swift */,
+			);
+			name = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +190,8 @@
 				1F392D101DFB45110010F923 /* AppDelegate.swift in Sources */,
 				1F392D241DFB53490010F923 /* PageViewController.swift in Sources */,
 				1F392D271DFB537A0010F923 /* PlanetViewController.swift in Sources */,
+				1F392D291DFB577F0010F923 /* Planet.swift in Sources */,
+				1F392D2C1DFB57CF0010F923 /* PlanetController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
