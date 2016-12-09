@@ -11,6 +11,8 @@
 		1F392D151DFB45110010F923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F392D131DFB45110010F923 /* Main.storyboard */; };
 		1F392D171DFB45110010F923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F392D161DFB45110010F923 /* Assets.xcassets */; };
 		1F392D1A1DFB45110010F923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F392D181DFB45110010F923 /* LaunchScreen.storyboard */; };
+		1F392D241DFB53490010F923 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F392D231DFB53490010F923 /* PageViewController.swift */; };
+		1F392D271DFB537A0010F923 /* PlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F392D261DFB537A0010F923 /* PlanetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		1F392D161DFB45110010F923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F392D191DFB45110010F923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F392D1B1DFB45110010F923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F392D231DFB53490010F923 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		1F392D261DFB537A0010F923 /* PlanetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				1F392D0E1DFB45110010F923 /* PageVCRefSolarSystem */,
+				1F392D251DFB534C0010F923 /* ViewControllers */,
 				1F392D0D1DFB45110010F923 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,6 +80,16 @@
 				1F392D131DFB45110010F923 /* Main.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		1F392D251DFB534C0010F923 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F392D231DFB53490010F923 /* PageViewController.swift */,
+				1F392D261DFB537A0010F923 /* PlanetViewController.swift */,
+			);
+			name = ViewControllers;
+			path = PageVCRefSolarSystem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +166,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F392D101DFB45110010F923 /* AppDelegate.swift in Sources */,
+				1F392D241DFB53490010F923 /* PageViewController.swift in Sources */,
+				1F392D271DFB537A0010F923 /* PlanetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
